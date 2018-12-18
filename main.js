@@ -20,8 +20,7 @@ const checkGuess = () => {
     }
     
     let userGuess = Number(guessField.value);
-    var guessArray = new Array[];
-    guessArray.push(Number(guessField.value));
+
     
     
     if (guessCount === 1) {
