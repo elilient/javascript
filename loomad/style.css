@@ -24,7 +24,7 @@ html, body {
     display:inline-block;
     color:#FEFFFE;
     text-decoration: none;
-    font-family: Verdana;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     width:16.667%;
     height:50px;
@@ -44,13 +44,26 @@ html, body {
 }
 
 .content {
-    height: 450px;
+    height: 100%;
     margin: 50px 270px 0px 270px;
 }
-.content .sidebar {
-    display:inline-block;
+.sidebar{
+    float:left;
 }
-
+.sidebar h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #750D37;
+}
+.sidebaritems a{
+    text-decoration: none;
+    color: #210124;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    line-height: 25px;
+}
+.contentitems {
+    height:500px;
+}
 .content .contactbox {
     width:400px;
     height:200px;
@@ -60,7 +73,7 @@ html, body {
 .content .contactbox h3{
     line-height: 50px;
     text-align:center;
-    font-family: Verdana;
+    font-family: 'Roboto', sans-serif;
 }
 .content .contactbox .contactinfo {
     margin-top: 20px;
@@ -68,32 +81,48 @@ html, body {
 }
 .content .contactbox p{
     font-weight: bold;
-    font-family: Verdana;
+    font-family: 'Roboto', sans-serif;
     line-height: 7px;
 }
 .content .googlemaps {
     float: right;
 }
+.animals {
+    margin-left: 380px;
+    width: 1165px;
+    height: 100%;
+    margin-bottom: 75px;
+}
+.animalitem {
+    margin-top:25px;
+    margin-left: 25px;
+    height:250px;
+    width:300px;
+    background-color:#750D37;
+    display: inline-block;
+}
+}
 .footer {
     margin-top:50px;
-    height:120px;
-    background-color: #210124;
+    height:110px;
 }
 .footeritems {
-    height:100px;
+    background-color: #210124;
+    height:110px;
     color: #FEFFFE;
-    line-height:6px;
-    font-family: Verdana;
-    font-size: 12px;
+    line-height:4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight:bold;
 }
 .footerleft {
     float:left;
-    padding-top: 10px;
-    padding-left: 50px;
+    padding-top: 5px;
+    padding-left: 270px;
 }
 
 .footerright {
     float:right;
-    padding-top: 10px;
-    padding-right: 50px;
+    padding-top: 5px;
+    padding-right: 270px;
 }
