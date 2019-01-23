@@ -14,9 +14,10 @@ html, body {
 }
 
 .navbar {
+    min-width:600px;
     height:50px;
-    margin-left: 270px;
-    margin-right: 270px;
+    margin-left: 14.19%;
+    margin-right: 14.19%;
     background-color:#750D37;
 }
 
@@ -27,6 +28,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     width:16.667%;
+    min-width:100px;
     height:50px;
     line-height: 50px;
     text-align: center;
@@ -37,32 +39,41 @@ html, body {
 }
 
 .banner {
-    height:400px;
+    max-height:400px;
     background-color:#B3DEC1;
-    margin-left: 270px;
-    margin-right: 270px;
+    margin-left: 14.19%;
+    margin-right: 14.19%;
+}
+
+.animalsbanner {
+    height:200px;
+    background-color:#B3DEC1;
+    margin-left: 14.19%;
+    margin-right: 14.19%;
 }
 
 .content {
     height: 100%;
-    margin: 50px 270px 0px 270px;
+    margin: 50px 14.19% 0px 14.19%;
 }
 .sidebar{
     float:left;
 }
 .sidebar h3 {
-    font-family: 'Roboto', sans-serif;
     color: #750D37;
 }
 .sidebaritems a{
     text-decoration: none;
     color: #210124;
-    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     line-height: 25px;
 }
 .contentitems {
-    height:500px;
+    height:600px;
+}
+
+.content * {
+    font-family: 'Roboto', sans-serif;
 }
 .content .contactbox {
     width:400px;
@@ -73,7 +84,7 @@ html, body {
 .content .contactbox h3{
     line-height: 50px;
     text-align:center;
-    font-family: 'Roboto', sans-serif;
+    
 }
 .content .contactbox .contactinfo {
     margin-top: 20px;
@@ -81,15 +92,16 @@ html, body {
 }
 .content .contactbox p{
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
+    
     line-height: 7px;
 }
 .content .googlemaps {
     float: right;
 }
 .animals {
-    margin-left: 380px;
+    margin-left: 28%;
     width: 1165px;
+    min-width:600px;
     height: 100%;
     margin-bottom: 75px;
 }
@@ -98,13 +110,34 @@ html, body {
     margin-left: 25px;
     height:250px;
     width:300px;
+    min-width:50px;
+    min-height:45px;
     background-color:#750D37;
     display: inline-block;
 }
+
+.adinfo {
+    width:900px;
+    float:left;
+}
+
+.adinfo p {
+    color: #750D37;
+     font-weight: bold;
+}
+
+.adinfo h4 {
+    color: #210124;
+}
+
+.adform {
+    float:right;
+    background:#750D37;
 }
 .footer {
     margin-top:50px;
     height:110px;
+    min-width:870px;
 }
 .footeritems {
     background-color: #210124;
