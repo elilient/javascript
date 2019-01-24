@@ -4,17 +4,16 @@
         <link rel="stylesheet" href="style.css" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <title>Loomade varjupaik</title>
-        <meta charset="utf-8">
     </head>
     <body>
         <div class="container">
             <div class="topbar">
                 <div class="navbar">
                     <div class="navitems">
-                        <a href="index.html">Avaleht</a><!--
-                     --><a href="loomad.html">Loomad</a><!--
-                     --><a href="kuulutused.html">Kuulutused</a><!--
-                     --><a href="toetajad.html">Toetajad</a><!--
+                        <a href="/index.html">Avaleht</a><!--
+                     --><a href="/loomad.html">Loomad</a><!--
+                     --><a href="/kuulutused.html">Kuulutused</a><!--
+                     --><a href="#">Toetajad</a><!--
                      --><a href="#">Varjupaik</a><!--
                      --><a href="#">Kontakt</a><!--
                      -->
