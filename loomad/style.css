@@ -7,6 +7,7 @@ html, body {
     background-color:#E5FCE5;
 }
 
+
 .topbar {
     height:50px;
     background-color:#210124;
@@ -122,9 +123,7 @@ html, body {
     border-radius: 15% 15% 0 0;
 }
 
-.profpilt {
-    border-radius: 5% 5% 0 0;
-}
+
 
 .animalprofiles {
     margin-left: 28%;
@@ -134,7 +133,16 @@ html, body {
     margin-bottom: 5%;
 }
 
+.profpilt {
+    z-index:1;
+    position: relative;
+    border-radius: 5% 5% 0 0;
+}
+
 .profinfo {
+
+    z-index:1;
+    position: relative;
     height: 5em;
     background: #750D37;
     color: #FEFFFE;
@@ -142,6 +150,9 @@ html, body {
 }
 
 .proftoug {
+
+    z-index:1;
+    position: relative;
     float:left;
     margin-top:5%;
     margin-left:5%;
@@ -162,6 +173,9 @@ html, body {
 }
 
 .profkirjeldus {
+
+    z-index:1;
+    position: relative;
     padding-top:2%;
     font-size: 15px;
     clear:both;
@@ -207,10 +221,9 @@ html, body {
 .animalitem:hover {
     color:transparent;
 }
-.adinfo {
-    width:60%;
+.kuulinfo {
     float:left;
-
+    color:black;
 }
 
 .whitespace {
@@ -218,14 +231,14 @@ html, body {
     width:100%;
 }
 
-.adinfo p {
+.kuulinfo p {
     color: #750D37;
     font-weight: bold;
     font-size:18px;
     text-align:justify;
 }
 
-.adinfo h4 {
+.kuulinfo h4 {
     color: #210124;
 }
 
@@ -325,4 +338,62 @@ html, body {
 .footerright div {
     padding-bottom:5px;
     padding-top:5px;
+}
+
+#app div {
+    text-align:center;
+    display:inline-block;
+    margin-right:2%;
+    margin-bottom:2%;
+    background-color:#750D37;
+    color:#FEFFFE;
+    border-radius: 0 0 15% 15%;
+}
+#app img {
+    width:300px;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 12%; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modalInfo0, .modalInfo1, .modalInfo2, .modalInfo3 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+}
+.modalInfo0 img, .modalInfo1 img, .modalInfo2 img, .modalInfo3 img{
+    width:100%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#app div:hover {
+    opacity:0.8;
 }
